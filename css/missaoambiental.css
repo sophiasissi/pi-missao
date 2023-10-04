@@ -11,7 +11,7 @@ font-family: 'Staatliches', cursive;*/
     font-family: 'Bree Serif', serif;
 }
 
- /* body {
+body {
     min-height: 100vh; 
     background: url("/image/fundoprincipal.jpg") no-repeat;  
     overflow-x: hidden;
@@ -21,7 +21,7 @@ font-family: 'Staatliches', cursive;*/
     display: flex;
     height: 100vh; 
 
-}  */
+}  
 
 .background-image {
     position: absolute;
@@ -126,8 +126,9 @@ font-family: 'Staatliches', cursive;*/
 .content .text {
     color: #000000;
     font-size: 19px;
-    margin-bottom: 30px;
-    line-height: 1.5em;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.3em;
     text-align: justify;
 }
 .content button {
@@ -266,6 +267,24 @@ input[type="checkbox"] {
     transform: translate(-50%, -50%);
 }
 
+#compostagem {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;
+    width: 1010px; 
+    padding: 10px;
+
+}
+
 #sobre {
     font-family: 'Bree Serif', serif;
     text-align: center;
@@ -290,7 +309,20 @@ h2 {
     font-size: 56px;
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#tcompostagem {
+    color: rgb(154, 255, 154);
+    font-family:'Bree Serif', serif;
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
