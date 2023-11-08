@@ -255,6 +255,16 @@ input[type="checkbox"] {
     background-color: #45a049;
 }
 
+.botao_hamb {
+    background-color: #0D5407;
+}
+.menu_hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 15px;
+}
+
 .hamburguer_linha {
     width: 45px;
     height: 5px;
