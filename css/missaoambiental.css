@@ -4,6 +4,10 @@ font-family: 'Bree Serif', serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Staatliches', cursive;*/
 
+@font-face {
+    font-family: ;
+    src: url('');
+}
 .logo {
     display: flex;
     align-items: center;
