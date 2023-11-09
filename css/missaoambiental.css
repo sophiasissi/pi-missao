@@ -249,6 +249,7 @@ input[type="checkbox"] {
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    height: 32px;
 }
 
 .botao:hover {
@@ -269,22 +270,28 @@ input[type="checkbox"] {
     background-color: #98B362;
 }
 
-/* .botao_hamb {
-    background-color: #0D5407;
+menu {
+    /* display: none; */
 }
-.menu_hamburguer {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 15px;
-}
-.hamburguer_linha {
-    width: 45px;
-    height: 5px;
-    background-color: white;
-    margin: 5px 0;
-} */
 
+menu > ul {
+    list-style-type: none;
+
+}
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0D5407;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 2px 70px;
+    border: none;
+    height: 32px;
+}
+
+menu > 
 .navbar a {
     position: relative;
     font-size: 18px;
