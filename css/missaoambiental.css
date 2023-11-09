@@ -218,7 +218,7 @@ input[type="checkbox"] {
     left: 0;
     width: 100%;
     height: 80px;
-    padding: 10px 120px;
+    padding: 10px 60px;
     background: black;
     background-color: #407B3B;
     display: flex;
@@ -252,10 +252,24 @@ input[type="checkbox"] {
 }
 
 .botao:hover {
-    background-color: #45a049;
+    background-color: #98B362;
 }
 
-.botao_hamb {
+#icone {
+    background-color: #0D5407;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#icone:hover {
+    background-color: #98B362;
+}
+
+/* .botao_hamb {
     background-color: #0D5407;
 }
 .menu_hamburguer {
@@ -264,13 +278,12 @@ input[type="checkbox"] {
     cursor: pointer;
     padding: 15px;
 }
-
 .hamburguer_linha {
     width: 45px;
     height: 5px;
     background-color: white;
     margin: 5px 0;
-}
+} */
 
 .navbar a {
     position: relative;
