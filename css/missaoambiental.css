@@ -24,10 +24,10 @@ font-family: 'Staatliches', cursive;*/
     font-family: 'Bree Serif', serif;
 }
 
-body{
+body {
     min-height: 100vh;  
     overflow-x: hidden;
-    background-color: #fff; 
+    background-color: #2B4C07; 
     background-size: cover;
     background-position: center; 
     display: flex;
@@ -318,6 +318,19 @@ menu > ul > li > a:hover {
 
 .navbar a:hover::before, menu > ul > li > a:hover::before {
     width: 94%;
+}
+
+/* article > img {
+
+    margin-top: 80px;
+    width: "10";
+    height: "50";
+} */
+
+div.bloco {
+    background-image: url('imagens/img1_desktop_home.png');
+    height: 300px;
+    margin-top: 80px;
 }
 
 #titulo {
