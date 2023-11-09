@@ -271,7 +271,7 @@ input[type="checkbox"] {
 }
 
 menu {
-    /* display: none; */
+    display: none;
 }
 
 menu > ul {
@@ -280,6 +280,7 @@ menu > ul {
 }
 menu > ul > li > a {
     display: block;
+    
     text-decoration: none;
     text-align: center;
     background-color: #0D5407;
@@ -291,8 +292,11 @@ menu > ul > li > a {
     height: 32px;
 }
 
-menu > 
-.navbar a {
+menu > ul > li > a:hover {
+    background-color: #98B362;
+}
+
+.navbar a, menu > ul > li > a {
     position: relative;
     font-size: 18px;
     color: #fff;
@@ -301,19 +305,19 @@ menu >
     margin-left: 40px;
 }
 
-.navbar a::before {
+.navbar a::before, menu > ul > li > a::before {
     content: '';
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 6px;
     width: 0;
     height: 2px;
     background: #fff;
     transition: 0.3s;
 }
 
-.navbar a:hover::before {
-    width: 100%;
+.navbar a:hover::before, menu > ul > li > a:hover::before {
+    width: 94%;
 }
 
 #titulo {
