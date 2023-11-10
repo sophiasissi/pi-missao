@@ -19,18 +19,15 @@
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .logo img {
     margin-right: 10px;
     margin-bottom: 10px;
-}
-
-.logo {
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
 }
 
 .botao {

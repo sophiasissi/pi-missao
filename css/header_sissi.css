@@ -1,15 +1,50 @@
-.vd_claro {
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bree+Serif&family=Playfair+Display:wght@400;500;600&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Bree Serif', serif;
+}
+
+.bg-verde-claro {
     color: #98B362;
 }
 
-#cor {
-    color: blue;
+.bg-verde-forte{
+    background-color: #407A3F;
 }
 
-.vd_es {
+.bg-verde-escuro {
     color: #356033;
 }
 
-.marrom {
+.bg-marrom {
     color: #664A3F;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: -3px;
+    margin-left: 0px;
+    margin-bottom: -3px;
+    font-size: 20px;
+}
+
+.titulo {
+    margin-left: 5px;
+    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.botao-menu {
+    color: white;
+    border: 2px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
