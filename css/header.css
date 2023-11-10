@@ -1,0 +1,168 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 60px;
+    background: black;
+    background-color: #407B3B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.botao {
+    background-color: #0D5407;
+    color: white;
+    padding: 2px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 32px;
+}
+
+.botao:hover {
+    background-color: #98B362;
+}
+
+#icone {
+    background-color: #0D5407;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#icone:hover {
+    background-color: #98B362;
+}
+
+#menu {
+    z-index: 2;
+}
+
+#menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar {
+    margin-top: 50px;
+    height: 5px;
+    width: 70%;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3 ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3 {
+    transform: translateY(4px);
+    display: none;
+}
+
+.nav {
+    transition: 0.3s ease;
+}
+
+.nav ul {
+    padding: 0 22px;
+}
+
+.nav li {
+    list-style: none; 
+    padding: 12px 0;
+} */
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    margin-top: 600px;
+    list-style-type: none;
+    background-color: #407B3B;
+    align-items: center;
+
+}
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0D5407;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 2px 70px;
+    border: none;
+    height: 32px;
+}
+
+.navbar {
+    background-color: #407B3B;
+    color: white;
+}
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+menu > ul > li > a:hover {
+    background-color: #98B362;
+}
+
+.navbar a, menu > ul > li > a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before, menu > ul > li > a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 6px;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before, menu > ul > li > a:hover::before {
+    width: 93%;
+}
