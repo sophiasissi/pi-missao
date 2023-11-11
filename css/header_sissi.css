@@ -40,11 +40,51 @@
     font-weight: 200;
 }
 
-.botao-menu {
-    color: white;
-    border: 2px;
+.botao {
+    cursor: pointer;
+    border-radius: 10px;
+    height: 35px;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+.botao:hover {
+    background-color: #98B362;
+}
+
+.transicao a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.transicao a::before {
+    content: '';
+    position: absolute;
+    top: 88%;
+    left: 1%;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.transicao a:hover::before {
+    width: 99%;
+}
+
+.icone {
+    cursor: pointer;
+}
+
+.icone:hover {
+    background-color: #98B362;
+}
+
+.pesquisa {
+    color: #356033 !important;
+    cursor: pointer;
+}
+
+.pesquisa:hover {
+    background-color: #356033 !important;
+    color: white !important;
 }

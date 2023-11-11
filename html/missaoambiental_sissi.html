@@ -9,25 +9,31 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-verde-forte fixed-top p-2">
+            <nav class="navbar navbar-expand-lg bg-verde-forte navbar-dark fixed-top p-2">
                 <div class="container-fluid">
                   <a class="logo navbar-brand" href="/html/missaoambiental_sissi.html"><img
                     src="/imagens/Logo.png"
                     alt="logo image">
-                    <h5 class="titulo">Missão Ambiental</h5></a>
+                    <h5 class="titulo pe-3">Missão Ambiental</h5></a>
 
-                  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon botao-menu icon-bar"></span>
+                  <button class="navbar-toggler text-white data-bs-theme border icone" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icone"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <div class="collapse navbar-collapse transicao" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+                      <li class="nav-item botao mb-2 px-1">
+                        <a class="nav-link active" href="/html/sobre.html">Sobre</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                      <li class="nav-item botao mb-2 px-1">
+                        <a class="nav-link active" href="/html/galeria.html">Galeria</a>
                       </li>
-                      <li class="nav-item dropdown">
+                      <li class="nav-item botao mb-2 px-1">
+                        <a class="nav-link active" href="/html/projetos.html">Projetos</a>
+                      </li>
+                      <li class="nav-item botao mb-2 px-1">
+                        <a class="nav-link active" href="/html/parceiros.html">Parceiros</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Dropdown
                         </a>
@@ -40,11 +46,11 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                      </li>
+                      </li> -->
                     </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    <form class="d-flex mt-2" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                      <button class="btn btn-outline-success pesquisa border" type="submit">Procurar</button>
                     </form>
                   </div>
                 </div>
