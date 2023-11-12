@@ -1,10 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bree+Serif&family=Playfair+Display:wght@400;500;600&family=Staatliches&display=swap');
+/* Fontes */
+
+/* Fonte Skeina */
+@font-face {
+    font-family: 'Skeina';
+    src: url('Skeina.otf') format('opentype');
+}
+
+/* Font Felix Titling MT */
+@font-face {
+    font-family: 'Felix';
+    src: url('Felix Titling MT.ttf') format('truetype');
+}
+
+/* Fonte EB Garamond: */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* Fonte Bree Serif: */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Fonte Verdana */
+@font-face {
+    font-family: 'Verdana';
+    src: url('verdana.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'VerdanaB';
+    src: url(verdana-bold.ttf) format('truetype');
+}
 
 * {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
     font-family: 'Bree Serif', serif;
+}
+
+.titulo_decorat {
+    font-family: 'Skeina', 'Felix', 'Times New Roman' Times, serif;
+    font-size: 24px;
+    color: black;
+
+}
+.titulo_font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.subtitulo_font {
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    color: black;
+}
+
+.texto_comum {
+    font-family: ;
+    font-size: 13px;
+    color: black;
+
 }
 
 .bg-verde-claro {
