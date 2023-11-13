@@ -1,5 +1,6 @@
 body.menu-opened {
     padding-top: 227px;
+    transition: padding-top 0.3s ease;
 }
 
 .img_fixed {
@@ -10,16 +11,17 @@ body.menu-opened {
     background-image: url('/image/fundoprincipal.jpg');
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    background-attachment: fixed;
 }
 
 .img-container {
     position: relative;
+    width: 100%;
 }
 
 .tit_img {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -28,9 +30,37 @@ body.menu-opened {
 
 .sub_img {
     position: absolute;
-    top: 70%;
+    width: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    margin-top: 110px;
+}
+
+.color-stripe {
+    background-color: rgba(43, 76, 7, 0.75);
+    
+    height: 50px;
+    width: 100%;
+}
+
+.folha_img {
+    width: 400px;
+    position: absolute;
+    top: 85%;
+    left: 74%;
+    transform: rotate(280deg);
+}
+@media screen and (min-width: 820px) {
+    /* .subtitulo_font{
+        font-size: 18px !important;
+    }  */
+}
+
+@media screen and (min-width:1024px){
+    /* .subtitulo_font{
+        font-size: 30px !important;
+    }  */
 }
