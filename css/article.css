@@ -1,0 +1,36 @@
+body.menu-opened {
+    padding-top: 227px;
+}
+
+.img_fixed {
+    position: relative;
+    width: 100%;
+    height: 500px !important;
+    margin-top: 80px !important;
+    background-image: url('/image/fundoprincipal.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+}
+
+.tit_img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.sub_img {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}

@@ -3,13 +3,13 @@
 /* Fonte Skeina */
 @font-face {
     font-family: 'Skeina';
-    src: url('Skeina.otf') format('opentype');
+    src: url('/fonts/Skeina.otf') format('opentype');
 }
 
 /* Font Felix Titling MT */
 @font-face {
     font-family: 'Felix';
-    src: url('Felix Titling MT.ttf') format('truetype');
+    src: url('/fonts/Felix\ Titling\ MT.ttf') format('truetype');
 }
 
 /* Fonte EB Garamond: */
@@ -21,11 +21,11 @@
 /* Fonte Verdana */
 @font-face {
     font-family: 'Verdana';
-    src: url('verdana.ttf') format('truetype');
+    src: url('/fonts/verdana.ttf') format('truetype');
 }
 @font-face {
     font-family: 'VerdanaB';
-    src: url(verdana-bold.ttf) format('truetype');
+    src: url('/fonts/verdana-bold.ttf') format('truetype');
 }
 
 * {
@@ -36,28 +36,29 @@
 }
 
 .titulo_decorat {
-    font-family: 'Skeina', 'Felix', 'Times New Roman' Times, serif;
-    font-size: 24px;
+    font-family: 'Felix', 'Skeina', sans-serif;
+    font-size: 64px;
     color: black;
-
 }
+
 .titulo_font {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
     color: black;
 }
 
 .subtitulo_font {
     font-family: 'Bree Serif', serif;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: normal;
     color: black;
 }
 
 .texto_comum {
-    font-family: ;
-    font-size: 13px;
+    font-family: 'Verdana', 'VerdanaB', sans-serif;
+    font-size: 14px;
     color: black;
-
 }
 
 .bg-verde-claro {
