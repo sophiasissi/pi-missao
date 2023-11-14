@@ -104,10 +104,20 @@ body.menu-opened {
 .folha2_img {
     width: 290px;
     position: absolute;
-    right: 84%;
+    right: 74%;
+    margin-top: -4%;
+    transform: translate(-50%, -50%);
     z-index: -1;
 }
+/* 
+.img_sec3 {
+    
+} */
 
+.btn_sec3 {
+    text-decoration: none;
+
+}
 @media screen and (min-width: 820px) {
     /* .subtitulo_font{
         font-size: 18px !important;
