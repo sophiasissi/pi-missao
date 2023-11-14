@@ -72,7 +72,42 @@ body.menu-opened {
 .bloc_grey {
     background-color: #D9D9D9;
     font-family: 'Verdana', 'VerdanaB', sans-serif !important;
+
 }
+
+.text_2 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.bloc_gre {
+    background-color: #98B362;
+    font-family: 'Verdana', 'VerdanaB', sans-serif !important;
+}
+
+.text_3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.icon_sec {
+    position: relative;
+    top: 58px;
+    right: 140px;
+}
+
+.folha2_img {
+    width: 290px;
+    position: absolute;
+    right: 84%;
+    z-index: -1;
+}
+
 @media screen and (min-width: 820px) {
     /* .subtitulo_font{
         font-size: 18px !important;
