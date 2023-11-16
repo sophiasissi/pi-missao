@@ -118,6 +118,12 @@ body.menu-opened {
     text-decoration: none;
 
 }
+
+.sec_3 {
+    width: 100%;
+    height: 40%;
+}
+
 @media screen and (min-width: 820px) {
     /* .subtitulo_font{
         font-size: 18px !important;
